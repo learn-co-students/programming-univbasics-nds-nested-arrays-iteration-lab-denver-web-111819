@@ -1,6 +1,16 @@
 def join_ingredients(src)
+  
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
-  #
+  
+  row_index = 0
+  string_array = []
+  
+  while row_index < spice_rack.count do
+    string_array.push("I love #{src[0][0]}")
+    
+    row_index += 1
+  end
+
   # Build a new Array that contains strings where each pair of foods is
   # inserted into this template:
   #
